@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 .header__wrap {
   width: 70%;
   margin: 0 auto;
@@ -21,10 +23,18 @@
   height: 88vh;
   .banner__card {
     background-color: white;
-    margin: 0 auto;
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+    @include abstracts.mq(768px) {
+      flex-direction: row;
+      align-items: center;
+      img {
+        height: 30vh;
+      }
+    }
     &__text {
-      padding: 8rem 1rem;
+      padding: 6rem 1rem;
     }
   }
 }

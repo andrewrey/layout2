@@ -96,11 +96,20 @@ select {
 }
 .header__banner .banner__card {
   background-color: white;
-  margin: 0 auto;
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .header__banner .banner__card {
+    flex-direction: row;
+    align-items: center;
+  }
+  .header__banner .banner__card img {
+    height: 30vh;
+  }
 }
 .header__banner .banner__card__text {
-  padding: 8rem 1rem;
+  padding: 6rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
