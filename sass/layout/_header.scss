@@ -1,0 +1,14 @@
+.header__wrap {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo_wrap {
+  width: 100px;
+  a {
+    display: block;
+  }
+}
