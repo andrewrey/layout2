@@ -25,16 +25,27 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-
-    @include abstracts.mq(768px) {
-      flex-direction: row;
-      align-items: center;
-      img {
-        height: 30vh;
+    align-items: center;
+    width: 70%;
+    @include abstracts.mq(630px) {
+      min-width: 600px;
+    }
+    .banner__card__img {
+      @include abstracts.mq(630px) {
+        width: 55%;
       }
     }
+
+    @include abstracts.mq(630px) {
+      flex-direction: row;
+    }
     &__text {
-      padding: 6rem 1rem;
+      padding: 4rem 2rem;
+    }
+  }
+  .banner__card__text {
+    @include abstracts.mq(630px) {
+      width: 45%;
     }
   }
 }
