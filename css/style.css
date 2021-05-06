@@ -87,4 +87,20 @@ select {
   display: block;
 }
 
+.header__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #04252d;
+  height: 88vh;
+}
+.header__banner .banner__card {
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+}
+.header__banner .banner__card__text {
+  padding: 8rem 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
