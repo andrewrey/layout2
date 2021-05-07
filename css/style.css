@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -72,6 +73,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
 .header__wrap {
   width: 70%;
   margin: 0 auto;
@@ -99,27 +104,36 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 60%;
+  min-width: 370px;
 }
-@media (min-width: 630px) {
+@media (min-width: 900px) {
   .header__banner .banner__card {
-    min-width: 600px;
+    min-width: 870px;
   }
 }
-@media (min-width: 630px) {
+@media (min-width: 900px) {
   .header__banner .banner__card .banner__card__img {
     width: 55%;
   }
 }
-@media (min-width: 630px) {
+@media (min-width: 900px) {
   .header__banner .banner__card {
     flex-direction: row;
   }
 }
 .header__banner .banner__card__text {
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
 }
-@media (min-width: 630px) {
+.header__banner .banner__card__text h1 {
+  font-family: "Fredoka One", cursive;
+  font-size: 3.75rem;
+}
+.header__banner .banner__card__text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+}
+@media (min-width: 900px) {
   .header__banner .banner__card__text {
     width: 45%;
   }
