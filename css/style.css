@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -104,12 +104,14 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%;
-  min-width: 370px;
+  width: 75%;
+  min-width: 300px;
+  max-width: 550px;
 }
 @media (min-width: 900px) {
   .header__banner .banner__card {
     min-width: 870px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 900px) {
@@ -127,11 +129,17 @@ html {
 }
 .header__banner .banner__card__text h1 {
   font-family: "Fredoka One", cursive;
-  font-size: 3.75rem;
+  font-size: 2.75rem;
+}
+@media (min-width: 900px) {
+  .header__banner .banner__card__text h1 {
+    font-size: 3.75rem;
+  }
 }
 .header__banner .banner__card__text h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
+  font-weight: 300;
 }
 @media (min-width: 900px) {
   .header__banner .banner__card__text {

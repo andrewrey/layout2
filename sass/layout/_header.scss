@@ -26,10 +26,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    min-width: 370px;
+    width: 75%;
+    min-width: 300px;
+    max-width: 550px;
     @include abstracts.mq(900px) {
       min-width: 870px;
+      max-width: 1200px;
     }
     .banner__card__img {
       @include abstracts.mq(900px) {
@@ -47,11 +49,15 @@
   .banner__card__text {
     h1 {
       font-family: abstracts.$hfont;
-      font-size: 3.75rem;
+      font-size: 2.75rem;
+      @include abstracts.mq(900px) {
+        font-size: 3.75rem;
+      }
     }
     h2 {
       font-family: abstracts.$subfont;
       font-size: 1.875rem;
+      font-weight: 300;
     }
     @include abstracts.mq(900px) {
       width: 45%;
