@@ -127,6 +127,9 @@ html {
 .header__banner .banner__card__text {
   padding: 1rem 1rem;
 }
+.header__banner .banner__card__text {
+  line-height: 1.2;
+}
 .header__banner .banner__card__text h1 {
   font-family: "Fredoka One", cursive;
   font-size: 2.75rem;
