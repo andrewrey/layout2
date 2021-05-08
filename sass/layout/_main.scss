@@ -1,0 +1,7 @@
+@use "../abstracts";
+
+.rules__header {
+  font-family: abstracts.$hfont;
+  font-size: 2.75rem;
+  color: abstracts.$orange;
+}

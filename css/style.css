@@ -178,4 +178,10 @@ html {
   }
 }
 
+.rules__header {
+  font-family: "Fredoka One", cursive;
+  font-size: 2.75rem;
+  color: #fc5c5c;
+}
+
 /*# sourceMappingURL=style.css.map */
