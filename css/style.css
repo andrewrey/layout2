@@ -105,10 +105,9 @@ html {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 75%;
   min-width: 300px;
-  max-width: 550px;
+  max-width: 510px;
 }
 .header__banner .banner__card__block-blue {
   width: 50%;
@@ -148,6 +147,11 @@ html {
   padding: 1rem 1rem;
 }
 .header__banner .banner__card__text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 1.2;
 }
 .header__banner .banner__card__text h1 {
