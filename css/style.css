@@ -196,4 +196,21 @@ html {
   }
 }
 
+.rule__num {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3eafc0;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.rule {
+  display: flex;
+  align-items: flex-start;
+}
+
 /*# sourceMappingURL=style.css.map */

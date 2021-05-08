@@ -14,3 +14,19 @@
     line-height: 1.2;
   }
 }
+.rule__num {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: abstracts.$lblue;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.rule {
+  display: flex;
+  align-items: flex-start;
+}
