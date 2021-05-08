@@ -100,6 +100,8 @@ html {
   height: 88vh;
 }
 .header__banner .banner__card {
+  position: relative;
+  z-index: 2;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -107,6 +109,24 @@ html {
   width: 75%;
   min-width: 300px;
   max-width: 550px;
+}
+.header__banner .banner__card__block-blue {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  background-color: blue;
+  top: -30px;
+  right: -20px;
+  z-index: -1;
+}
+.header__banner .banner__card__block-red {
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  background-color: red;
+  bottom: -30px;
+  left: -20px;
 }
 @media (min-width: 900px) {
   .header__banner .banner__card {
