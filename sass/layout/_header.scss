@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #04252d;
+  background: abstracts.$dark;
   height: 88vh;
   .banner__card {
     position: relative;
@@ -28,7 +28,7 @@
       width: 50%;
       height: 50%;
       position: absolute;
-      background-color: blue;
+      background-color: abstracts.$lblue;
       top: -30px;
       right: -20px;
       z-index: -1;
@@ -38,7 +38,7 @@
       width: 50%;
       height: 50%;
       position: absolute;
-      background-color: red;
+      background-color: abstracts.$orange;
       bottom: -30px;
       left: -20px;
     }
@@ -61,26 +61,27 @@
     @include abstracts.mq(900px) {
       flex-direction: row;
     }
-    &__text {
-      padding: 1rem 1rem;
-    }
   }
   .banner__card__text {
+    padding: 1rem;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     line-height: 1.2;
+    @include abstracts.mq(900px) {
+      justify-content: center;
+    }
     h1 {
       font-family: abstracts.$hfont;
       font-size: 2.75rem;
+      color: abstracts.$orange;
       @include abstracts.mq(900px) {
         font-size: 3.75rem;
       }
     }
     h2 {
-      font-family: abstracts.$subfont;
+      font-family: abstracts.$subfont-light;
       font-size: 1.875rem;
       font-weight: 300;
     }
