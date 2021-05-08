@@ -1,7 +1,16 @@
 @use "../abstracts";
 
+.rules {
+  width: 70%;
+  margin: 0 auto;
+}
 .rules__header {
   font-family: abstracts.$hfont;
+  font-weight: 400;
   font-size: 2.75rem;
   color: abstracts.$orange;
+  @include abstracts.mq(900px) {
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
 }
