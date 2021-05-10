@@ -196,6 +196,17 @@ html {
   }
 }
 
+.rules__wrap {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 900px) {
+  .rules__wrap {
+    flex-direction: row;
+  }
+}
+
 .rule__num {
   color: white;
   font-size: 3rem;
@@ -211,6 +222,10 @@ html {
 .rule {
   display: flex;
   align-items: flex-start;
+}
+
+.rule__text {
+  padding: 0 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
