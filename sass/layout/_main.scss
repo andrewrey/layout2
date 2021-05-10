@@ -2,7 +2,7 @@
 
 .rules {
   width: 70%;
-  margin: 0 auto;
+  margin: 2rem auto 0;
 }
 .rules__header {
   font-family: abstracts.$hfont;
@@ -41,4 +41,13 @@
 
 .rule__text {
   padding: 0 2rem;
+}
+
+.rule__link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-bottom: 3px solid abstracts.$orange;
+  box-shadow: 4px 2px 4px black;
 }
