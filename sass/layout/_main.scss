@@ -21,6 +21,12 @@
   @include abstracts.mq(900px) {
     flex-direction: row;
   }
+  > * + * {
+    margin-top: 2rem;
+    @include abstracts.mq(900px) {
+      margin-top: 0;
+    }
+  }
 }
 .rule__num {
   color: white;
@@ -44,10 +50,15 @@
 }
 
 .rule__link {
-  color: black;
+  padding: 10px;
+  width: 50%;
+  min-width: 130px;
+  background-color: abstracts.$lblue;
+  margin-top: 1rem;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
   border-bottom: 3px solid abstracts.$orange;
-  box-shadow: 4px 2px 4px black;
+  box-shadow: 8px 5px 11px 0px rgba(black, 0.34);
 }
