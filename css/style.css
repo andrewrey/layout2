@@ -266,13 +266,30 @@ a {
 
 .contact {
   margin-top: 2rem;
+}
+
+.contact__wrap {
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 900px) {
+  .contact__wrap {
+    flex-direction: row-reverse;
+  }
 }
 
 .contact__card {
   width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 900px) {
+  .contact__card {
+    padding: 0 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .contact__card h3 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -314,6 +331,11 @@ a {
 
 .contact__image {
   margin-top: 2rem;
+}
+@media (min-width: 900px) {
+  .contact__image {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

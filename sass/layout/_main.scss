@@ -74,12 +74,25 @@
 
 .contact {
   margin-top: 2rem;
+}
+
+.contact__wrap {
   display: flex;
   flex-direction: column;
+  @include abstracts.mq(900px) {
+    flex-direction: row-reverse;
+  }
 }
 
 .contact__card {
   width: 90%;
+  @include abstracts.mq(900px) {
+    padding: 0 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   margin: 0 auto;
   h3 {
     font-family: abstracts.$subfont-narrow;
@@ -122,4 +135,7 @@
 
 .contact__image {
   margin-top: 2rem;
+  @include abstracts.mq(900px) {
+    width: 50%;
+  }
 }
