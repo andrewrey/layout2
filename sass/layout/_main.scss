@@ -1,11 +1,15 @@
 @use "../abstracts";
 
+//  Section RULES //
 .rules {
   width: 90%;
   margin: 2rem auto 0;
   @include abstracts.mq(900px) {
     width: 70%;
   }
+}
+.padding {
+  padding: 0 2rem;
 }
 .rules__header {
   font-family: abstracts.$hfont;
@@ -64,4 +68,58 @@
   letter-spacing: 1px;
   border-bottom: 3px solid abstracts.$orange;
   box-shadow: 8px 5px 11px 0px rgba(black, 0.34);
+}
+
+// CONTACT US SECTION //
+
+.contact {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__card {
+  width: 90%;
+  margin: 0 auto;
+  h3 {
+    font-family: abstracts.$subfont-narrow;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+  h2 {
+    font-family: abstracts.$subfont-light;
+    font-size: 3rem;
+    color: abstracts.$orange;
+    line-height: 1.2;
+  }
+  p {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  button {
+    margin-top: 1.5rem;
+    background-color: abstracts.$orange;
+    color: white;
+    width: 45%;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 40px;
+    font-family: abstracts.$subfont;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-color: abstracts.$orange;
+    border-style: solid;
+    &:hover {
+      background-color: transparent;
+      color: black;
+    }
+  }
+}
+
+.contact__image {
+  margin-top: 2rem;
 }

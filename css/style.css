@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -192,6 +193,10 @@ a {
   }
 }
 
+.padding {
+  padding: 0 2rem;
+}
+
 .rules__header {
   font-family: "Fredoka One", cursive;
   font-weight: 400;
@@ -257,6 +262,58 @@ a {
   letter-spacing: 1px;
   border-bottom: 3px solid #fc5c5c;
   box-shadow: 8px 5px 11px 0px rgba(0, 0, 0, 0.34);
+}
+
+.contact {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__card {
+  width: 90%;
+  margin: 0 auto;
+}
+.contact__card h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.contact__card h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  color: #fc5c5c;
+  line-height: 1.2;
+}
+.contact__card p {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.contact__card button {
+  margin-top: 1.5rem;
+  background-color: #fc5c5c;
+  color: white;
+  width: 45%;
+  max-width: 300px;
+  padding: 15px;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-color: #fc5c5c;
+  border-style: solid;
+}
+.contact__card button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.contact__image {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
