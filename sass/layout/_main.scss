@@ -140,6 +140,20 @@
   }
 }
 
+.team__decoration {
+  width: 250px;
+  height: 250px;
+  background-color: abstracts.$orange;
+  position: relative;
+  top: -30px;
+  left: -35px;
+  border-radius: 50%;
+}
+
+.team__wrap {
+  margin-top: -40px;
+}
+
 .team__card {
   width: 90%;
   margin: 0 auto;
