@@ -366,4 +366,15 @@ a {
   margin-top: 2rem;
 }
 
+.team__img {
+  margin-top: 3rem;
+}
+.team__img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
