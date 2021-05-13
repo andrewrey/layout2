@@ -352,9 +352,21 @@ a {
   margin-top: -40px;
 }
 
+@media (min-width: 900px) {
+  .team__wrap {
+    display: flex;
+  }
+}
+
 .team__card {
   width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 900px) {
+  .team__card {
+    width: 50%;
+    padding: 0 1rem;
+  }
 }
 .team__card h2 {
   font-size: 3rem;
@@ -369,6 +381,13 @@ a {
 .team__img {
   margin-top: 3rem;
   position: relative;
+}
+@media (min-width: 900px) {
+  .team__img {
+    width: 50%;
+    margin-top: 0;
+    top: -150px;
+  }
 }
 .team__img img {
   width: 250px;
