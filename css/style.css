@@ -338,4 +338,18 @@ a {
   }
 }
 
+.team__card {
+  width: 90%;
+  margin: 0 auto;
+}
+.team__card h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-family: "Fredoka One", cursive;
+  color: #fc5c5c;
+}
+.team__card p {
+  margin-top: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */

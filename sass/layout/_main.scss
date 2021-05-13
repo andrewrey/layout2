@@ -139,3 +139,17 @@
     width: 50%;
   }
 }
+
+.team__card {
+  width: 90%;
+  margin: 0 auto;
+  h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: abstracts.$hfont;
+    color: abstracts.$orange;
+  }
+  p {
+    margin-top: 2rem;
+  }
+}
