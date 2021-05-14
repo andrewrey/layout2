@@ -157,6 +157,8 @@
 .team__wrap {
   @include abstracts.mq(900px) {
     display: flex;
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -191,6 +193,10 @@
   img {
     width: 250px;
     height: 250px;
+    @include abstracts.mq(900px) {
+      width: 300px;
+      height: 300px;
+    }
     border-radius: 50%;
     display: block;
     margin: 0 auto;

@@ -355,6 +355,8 @@ a {
 @media (min-width: 900px) {
   .team__wrap {
     display: flex;
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -395,6 +397,12 @@ a {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+}
+@media (min-width: 900px) {
+  .team__img img {
+    width: 300px;
+    height: 300px;
+  }
 }
 .team__img .team__img__background {
   z-index: -1;
