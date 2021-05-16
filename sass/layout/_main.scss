@@ -215,7 +215,7 @@
 
 .banner__lower {
   background-color: abstracts.$dark;
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 .banner__lower__decoration {
@@ -226,4 +226,30 @@
   top: 50%;
   transform: translateY(-50%);
   left: 50%;
+}
+
+.banner__lower__text {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  z-index: 5;
+  background-color: white;
+  padding: 1rem;
+  h2 {
+    font-size: 1.5rem;
+    font-family: abstracts.$subfont-light;
+  }
+  p {
+    font-size: 1.0625rem;
+  }
+}
+
+.banner__lower__image {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-64.5%);
 }
