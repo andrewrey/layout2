@@ -417,6 +417,18 @@ a {
 
 .banner__lower {
   background-color: #292a35;
+  height: 80vh;
+  position: relative;
+}
+
+.banner__lower__decoration {
+  width: 50%;
+  height: 80%;
+  background-color: #fc5c5c;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

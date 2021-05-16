@@ -215,4 +215,15 @@
 
 .banner__lower {
   background-color: abstracts.$dark;
+  height: 80vh;
+  position: relative;
+}
+.banner__lower__decoration {
+  width: 50%;
+  height: 80%;
+  background-color: abstracts.$orange;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
 }
