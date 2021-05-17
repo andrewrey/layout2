@@ -216,8 +216,15 @@
 .banner__lower {
   background-color: abstracts.$dark;
   height: 100vh;
-  position: relative;
 }
+
+.banner__lower__wrap {
+  max-width: 530px;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
 .banner__lower__decoration {
   width: 200px;
   height: 80%;

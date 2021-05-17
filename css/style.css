@@ -83,7 +83,7 @@ a {
   display: block;
 }
 
-.example::-webkit-scrollbar {
+html::-webkit-scrollbar {
   display: none;
 }
 
@@ -422,7 +422,13 @@ a {
 .banner__lower {
   background-color: #292a35;
   height: 100vh;
+}
+
+.banner__lower__wrap {
+  max-width: 530px;
+  margin: 0 auto;
   position: relative;
+  height: 100%;
 }
 
 .banner__lower__decoration {
