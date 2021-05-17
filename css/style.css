@@ -429,7 +429,6 @@ html::-webkit-scrollbar {
   margin: 0 auto;
   position: relative;
   height: 100%;
-  border: 2px solid red;
 }
 @media (min-width: 900px) {
   .banner__lower__wrap {
