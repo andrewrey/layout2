@@ -7,3 +7,7 @@ html {
 a {
   display: block;
 }
+
+.example::-webkit-scrollbar {
+  display: none;
+}

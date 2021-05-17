@@ -219,21 +219,22 @@
   position: relative;
 }
 .banner__lower__decoration {
-  width: 50%;
+  width: 200px;
   height: 80%;
   background-color: abstracts.$orange;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 50%;
+  right: 0;
 }
 
 .banner__lower__text {
-  width: 50%;
+  width: 200px;
   position: absolute;
-  left: 50%;
+  left: 52%;
   transform: translateX(-50%);
-  top: 40%;
+  top: 45%;
+  box-shadow: 0 0 4px black;
   z-index: 5;
   background-color: white;
   padding: 1rem;
@@ -247,7 +248,7 @@
 }
 
 .banner__lower__image {
-  width: 70%;
+  width: 300px;
   position: absolute;
   left: 50%;
   top: 15%;
