@@ -502,6 +502,9 @@ html::-webkit-scrollbar {
   margin-left: -20px;
   color: #fc5c5c;
 }
+.skills__card__list span {
+  color: #fc5c5c;
+}
 .skills__card__list li + li {
   margin-top: 1rem;
 }
