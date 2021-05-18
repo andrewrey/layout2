@@ -281,3 +281,14 @@
     font-size: 1.0625rem;
   }
 }
+
+.skills__card__list {
+  list-style: none;
+  i {
+    margin-left: -20px;
+    color: abstracts.$orange;
+  }
+  li + li {
+    margin-top: 1rem;
+  }
+}

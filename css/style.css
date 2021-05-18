@@ -495,4 +495,15 @@ html::-webkit-scrollbar {
   font-size: 1.0625rem;
 }
 
+.skills__card__list {
+  list-style: none;
+}
+.skills__card__list i {
+  margin-left: -20px;
+  color: #fc5c5c;
+}
+.skills__card__list li + li {
+  margin-top: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
