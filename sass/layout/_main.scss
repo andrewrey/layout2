@@ -364,7 +364,10 @@
   }
 }
 
-.about__image-two {
-  width: 70%;
-  margin: 0 auto;
+.about__image {
+  &-two,
+  &-one {
+    width: 70%;
+    margin: 0 auto;
+  }
 }

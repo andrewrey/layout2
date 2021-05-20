@@ -579,7 +579,7 @@ html::-webkit-scrollbar {
   font-weight: bold;
 }
 
-.about__image-two {
+.about__image-two, .about__image-one {
   width: 70%;
   margin: 0 auto;
 }
