@@ -568,6 +568,18 @@ html::-webkit-scrollbar {
   justify-content: center;
 }
 
+.about__text_card {
+  margin: 2rem 0;
+}
+.about__text_card__wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+.about__text_card__wrap a {
+  color: #157ecf;
+  font-weight: bold;
+  text-decoration: none;
+}
 .about__text_card h2 {
   text-transform: uppercase;
   font-family: "Fredoka One", cursive;
