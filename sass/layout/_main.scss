@@ -351,6 +351,19 @@
   justify-content: center;
 }
 
+.about__text_card {
+  h2 {
+    text-transform: uppercase;
+    font-family: abstracts.$hfont;
+    color: abstracts.$orange;
+    font-size: 3.75rem;
+  }
+  p {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+}
+
 .about__image-two {
   width: 70%;
   margin: 0 auto;
