@@ -495,8 +495,54 @@ html::-webkit-scrollbar {
   font-size: 1.0625rem;
 }
 
+.skills__wrap {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 900px) {
+  .skills__wrap {
+    flex-direction: row;
+  }
+}
+
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+@media (min-width: 900px) {
+  .skills__card {
+    width: 50%;
+  }
+}
+.skills__card h2 {
+  font-size: 3.75rem;
+  color: #fc5c5c;
+  font-family: "Fredoka One", cursive;
+  text-transform: uppercase;
+}
+.skills__card button {
+  margin-top: 2rem;
+  padding: 10px 0;
+  width: 35%;
+  min-width: 200px;
+  border-radius: 20px;
+  border-color: #fc5c5c;
+  border-style: solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.skills__card button:hover {
+  background-color: #fc5c5c;
+  color: white;
+}
+
 .skills__card__list {
   list-style: none;
+  font-weight: bold;
 }
 .skills__card__list i {
   margin-left: -20px;
@@ -506,7 +552,13 @@ html::-webkit-scrollbar {
   color: #fc5c5c;
 }
 .skills__card__list li + li {
-  margin-top: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .skills__img {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

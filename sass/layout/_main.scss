@@ -282,8 +282,50 @@
   }
 }
 
+.skills__wrap {
+  display: flex;
+  flex-direction: column;
+  @include abstracts.mq(900px) {
+    flex-direction: row;
+  }
+}
+
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  @include abstracts.mq(900px) {
+    width: 50%;
+  }
+  h2 {
+    font-size: 3.75rem;
+    color: abstracts.$orange;
+    font-family: abstracts.$hfont;
+    text-transform: uppercase;
+  }
+  button {
+    margin-top: 2rem;
+    padding: 10px 0;
+    width: 35%;
+    min-width: 200px;
+    border-radius: 20px;
+    border-color: abstracts.$orange;
+    border-style: solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    &:hover {
+      background-color: abstracts.$orange;
+      color: white;
+    }
+  }
+}
+
 .skills__card__list {
   list-style: none;
+  font-weight: bold;
   i {
     margin-left: -20px;
     color: abstracts.$orange;
@@ -292,6 +334,12 @@
     color: abstracts.$orange;
   }
   li + li {
-    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+}
+
+.skills__img {
+  @include abstracts.mq(900px) {
+    width: 50%;
   }
 }
