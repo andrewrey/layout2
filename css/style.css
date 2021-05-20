@@ -561,4 +561,16 @@ html::-webkit-scrollbar {
   }
 }
 
+.about__video__wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about__image-two {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
