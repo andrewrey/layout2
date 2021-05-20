@@ -344,11 +344,10 @@
   }
 }
 
-.about__video__wrap {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+.about {
+  @include abstracts.mq(900px) {
+    display: flex;
+  }
 }
 
 .about__text_card {
