@@ -353,9 +353,11 @@
 .about__text_card {
   margin: 2rem 0;
   &__wrap {
+    padding: 3rem 0;
     width: 70%;
     margin: 0 auto;
     a {
+      margin-top: 3rem;
       color: abstracts.$dblue;
       font-weight: bold;
       text-decoration: none;
@@ -368,6 +370,7 @@
     font-size: 3.75rem;
   }
   p {
+    margin-top: 2rem;
     font-size: 1.125rem;
     font-weight: bold;
   }

@@ -571,10 +571,12 @@ html::-webkit-scrollbar {
   margin: 2rem 0;
 }
 .about__text_card__wrap {
+  padding: 3rem 0;
   width: 70%;
   margin: 0 auto;
 }
 .about__text_card__wrap a {
+  margin-top: 3rem;
   color: #157ecf;
   font-weight: bold;
   text-decoration: none;
@@ -586,6 +588,7 @@ html::-webkit-scrollbar {
   font-size: 3.75rem;
 }
 .about__text_card p {
+  margin-top: 2rem;
   font-size: 1.125rem;
   font-weight: bold;
 }
