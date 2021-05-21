@@ -345,6 +345,7 @@
 }
 
 .about {
+  padding-top: 3rem;
   @include abstracts.mq(900px) {
     display: flex;
   }
@@ -352,9 +353,17 @@
 
 .about__text_card {
   margin: 2rem 0;
+  @include abstracts.mq(900px) {
+    width: 33%;
+    position: relative;
+    top: 5rem;
+  }
   &__wrap {
     padding: 3rem 0;
     width: 70%;
+    @include abstracts.mq(900px) {
+      width: 90%;
+    }
     margin: 0 auto;
     a {
       margin-top: 3rem;
@@ -381,8 +390,18 @@
   &-one {
     width: 70%;
     margin: 0 auto;
+    @include abstracts.mq(900px) {
+      width: 30%;
+    }
+  }
+  &-two {
+    @include abstracts.mq(900px) {
+      position: relative;
+      top: 18rem;
+    }
   }
 }
+
 .portrait {
   display: none;
   @include abstracts.mq(900px) {
