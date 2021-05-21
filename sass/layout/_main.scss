@@ -383,3 +383,15 @@
     margin: 0 auto;
   }
 }
+.portrait {
+  display: none;
+  @include abstracts.mq(900px) {
+    display: block;
+  }
+}
+.square_img {
+  display: block;
+  @include abstracts.mq(900px) {
+    display: none;
+  }
+}

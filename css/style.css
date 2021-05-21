@@ -598,4 +598,22 @@ html::-webkit-scrollbar {
   margin: 0 auto;
 }
 
+.portrait {
+  display: none;
+}
+@media (min-width: 900px) {
+  .portrait {
+    display: block;
+  }
+}
+
+.square_img {
+  display: block;
+}
+@media (min-width: 900px) {
+  .square_img {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
