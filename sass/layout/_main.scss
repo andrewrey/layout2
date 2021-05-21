@@ -348,6 +348,7 @@
   padding-top: 3rem;
   @include abstracts.mq(900px) {
     display: flex;
+    padding-bottom: 20rem;
   }
 }
 
@@ -391,7 +392,7 @@
     width: 70%;
     margin: 0 auto;
     @include abstracts.mq(900px) {
-      width: 30%;
+      width: 25%;
     }
   }
   &-two {
@@ -412,5 +413,16 @@
   display: block;
   @include abstracts.mq(900px) {
     display: none;
+  }
+}
+
+.bottom_banner__text_card {
+  width: 30%;
+  border: 2px solid red;
+  h2 {
+    font-family: abstracts.$hfont;
+    color: abstracts.$orange;
+    text-transform: uppercase;
+    font-size: 3.44rem;
   }
 }
