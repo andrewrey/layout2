@@ -564,8 +564,12 @@ html::-webkit-scrollbar {
 .about {
   padding-top: 3rem;
 }
+
 @media (min-width: 900px) {
-  .about {
+  .about__wrap {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     padding-bottom: 20rem;
   }
@@ -615,7 +619,7 @@ html::-webkit-scrollbar {
 }
 @media (min-width: 900px) {
   .about__image-two, .about__image-one {
-    width: 25%;
+    width: 30%;
   }
 }
 @media (min-width: 900px) {
