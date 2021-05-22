@@ -647,6 +647,26 @@ html::-webkit-scrollbar {
   }
 }
 
+.img__decoration__wrap {
+  position: relative;
+}
+
+.about__image-two__decoration {
+  display: none;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  background-color: #fc5c5c;
+  border-radius: 50%;
+}
+@media (min-width: 900px) {
+  .about__image-two__decoration {
+    display: block;
+  }
+}
+
 .bottom_banner__text_card {
   width: 30%;
   border: 2px solid red;

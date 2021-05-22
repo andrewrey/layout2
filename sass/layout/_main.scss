@@ -420,6 +420,22 @@
     display: none;
   }
 }
+.img__decoration__wrap {
+  position: relative;
+}
+.about__image-two__decoration {
+  display: none;
+  @include abstracts.mq(900px) {
+    display: block;
+  }
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  background-color: abstracts.$orange;
+  border-radius: 50%;
+}
 
 .bottom_banner__text_card {
   width: 30%;
