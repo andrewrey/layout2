@@ -668,8 +668,9 @@ html::-webkit-scrollbar {
 }
 
 .bottom_banner__text_card {
-  margin-top: 4rem;
+  margin: 4rem auto 0;
   border: 2px solid red;
+  width: 70%;
 }
 .bottom_banner__text_card h2 {
   font-family: "Fredoka One", cursive;
@@ -677,7 +678,17 @@ html::-webkit-scrollbar {
   text-transform: uppercase;
   font-size: 3.44rem;
 }
-.bottom_banner__text_card .text_card__info-wrap {
+.bottom_banner__text_card h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.bottom_banner__text_card p {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.text_card__info-wrap {
   display: flex;
   flex-direction: column;
 }
@@ -685,10 +696,29 @@ html::-webkit-scrollbar {
 .text_card__project {
   color: white;
   background-color: #3eafc0;
+  padding: 1.5rem;
 }
 .text_card__contact {
   color: white;
   background-color: #157ecf;
+  padding: 1.5rem;
+}
+
+.bottom__banner__scroll {
+  margin-top: 2rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottom__banner__scroll p {
+  font-weight: bold;
+}
+
+.bottom__banner__scroll__decoration {
+  height: 4px;
+  width: 60px;
+  background-color: black;
+  margin-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

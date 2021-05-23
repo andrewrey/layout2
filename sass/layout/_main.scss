@@ -438,27 +438,58 @@
 }
 
 .bottom_banner__text_card {
-  margin-top: 4rem;
+  margin: 4rem auto 0;
   border: 2px solid red;
+  width: 70%;
   h2 {
     font-family: abstracts.$hfont;
     color: abstracts.$orange;
     text-transform: uppercase;
     font-size: 3.44rem;
   }
-  .text_card__info-wrap {
-    display: flex;
-    flex-direction: column;
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: abstracts.$subfont;
   }
+  p {
+    font-size: 1.5rem;
+    font-family: abstracts.$subfont;
+  }
+}
+
+.text_card__info-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 .text_card__ {
   &project {
     color: white;
     background-color: abstracts.$lblue;
+    padding: 1.5rem;
   }
   &contact {
     color: white;
     background-color: abstracts.$dblue;
+    padding: 1.5rem;
   }
+}
+
+.bottom__banner__scroll {
+  margin-top: 2rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  p {
+    font-weight: bold;
+  }
+}
+
+.bottom__banner__scroll__decoration {
+  height: 4px;
+  width: 60px;
+  background-color: black;
+  margin-bottom: 1.5rem;
 }
