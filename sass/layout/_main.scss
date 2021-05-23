@@ -438,9 +438,16 @@
 }
 
 .bottom_banner__text_card {
+  &__wrap {
+    @include abstracts.mq(900px) {
+      width: 50%;
+      border: 2px solid blue;
+    }
+  }
   margin: 4rem auto 0;
   border: 2px solid red;
   width: 70%;
+  max-width: 1200px;
   h2 {
     font-family: abstracts.$hfont;
     color: abstracts.$orange;
@@ -462,6 +469,9 @@
 .text_card__info-wrap {
   display: flex;
   flex-direction: column;
+  @include abstracts.mq(900px) {
+    flex-direction: row;
+  }
 }
 
 .text_card__ {
@@ -469,11 +479,13 @@
     color: white;
     background-color: abstracts.$lblue;
     padding: 1.5rem;
+    flex: 1;
   }
   &contact {
     color: white;
     background-color: abstracts.$dblue;
     padding: 1.5rem;
+    flex: 1;
   }
 }
 

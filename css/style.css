@@ -671,6 +671,13 @@ html::-webkit-scrollbar {
   margin: 4rem auto 0;
   border: 2px solid red;
   width: 70%;
+  max-width: 1200px;
+}
+@media (min-width: 900px) {
+  .bottom_banner__text_card__wrap {
+    width: 50%;
+    border: 2px solid blue;
+  }
 }
 .bottom_banner__text_card h2 {
   font-family: "Fredoka One", cursive;
@@ -692,16 +699,23 @@ html::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 900px) {
+  .text_card__info-wrap {
+    flex-direction: row;
+  }
+}
 
 .text_card__project {
   color: white;
   background-color: #3eafc0;
   padding: 1.5rem;
+  flex: 1;
 }
 .text_card__contact {
   color: white;
   background-color: #157ecf;
   padding: 1.5rem;
+  flex: 1;
 }
 
 .bottom__banner__scroll {
