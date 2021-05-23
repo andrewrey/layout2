@@ -439,13 +439,16 @@
 
 .bottom_banner__text_card {
   &__wrap {
+    position: relative;
+
     @include abstracts.mq(900px) {
-      width: 50%;
-      border: 2px solid blue;
+      width: 70%;
+      max-width: 680px;
+      // border: 2px solid blue;
     }
   }
   margin: 4rem auto 0;
-  border: 2px solid red;
+  // border: 2px solid red;
   width: 70%;
   max-width: 1200px;
   h2 {
@@ -460,7 +463,7 @@
     font-weight: 400;
     font-family: abstracts.$subfont;
   }
-  p {
+  h3 + p {
     font-size: 1.5rem;
     font-family: abstracts.$subfont;
   }
@@ -490,8 +493,12 @@
 }
 
 .bottom__banner__scroll {
+  @include abstracts.mq(900px) {
+    position: absolute;
+    top: 50%;
+    right: -250px;
+  }
   margin-top: 2rem;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
   p {
@@ -501,7 +508,7 @@
 
 .bottom__banner__scroll__decoration {
   height: 4px;
-  width: 60px;
+  width: 70px;
   background-color: black;
   margin-bottom: 1.5rem;
 }

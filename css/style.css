@@ -669,14 +669,16 @@ html::-webkit-scrollbar {
 
 .bottom_banner__text_card {
   margin: 4rem auto 0;
-  border: 2px solid red;
   width: 70%;
   max-width: 1200px;
 }
+.bottom_banner__text_card__wrap {
+  position: relative;
+}
 @media (min-width: 900px) {
   .bottom_banner__text_card__wrap {
-    width: 50%;
-    border: 2px solid blue;
+    width: 70%;
+    max-width: 680px;
   }
 }
 .bottom_banner__text_card h2 {
@@ -690,7 +692,7 @@ html::-webkit-scrollbar {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
-.bottom_banner__text_card p {
+.bottom_banner__text_card h3 + p {
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
 }
@@ -720,9 +722,15 @@ html::-webkit-scrollbar {
 
 .bottom__banner__scroll {
   margin-top: 2rem;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 900px) {
+  .bottom__banner__scroll {
+    position: absolute;
+    top: 50%;
+    right: -250px;
+  }
 }
 .bottom__banner__scroll p {
   font-weight: bold;
@@ -730,7 +738,7 @@ html::-webkit-scrollbar {
 
 .bottom__banner__scroll__decoration {
   height: 4px;
-  width: 60px;
+  width: 70px;
   background-color: black;
   margin-bottom: 1.5rem;
 }
