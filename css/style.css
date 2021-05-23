@@ -743,4 +743,9 @@ html::-webkit-scrollbar {
   margin-bottom: 1.5rem;
 }
 
+.bottom__banner__background {
+  height: 30vh;
+  background-color: pink;
+}
+
 /*# sourceMappingURL=style.css.map */
