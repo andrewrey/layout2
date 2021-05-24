@@ -1,5 +1,13 @@
-const burger = document.querySelector(".header__logo_wrap i");
+// SELECTORS //
+const burger = document.querySelector(".header__wrap i");
+const modalBackdrop = document.querySelector(".modal_backdrop");
+const body = document.querySelector("body");
 
-burger.addEventListener("click", () => console.log("test"));
+// EVENT LISTENERS //
+burger.addEventListener("click", () => {
+  modalBackdrop.classList.add("darken");
+});
 
-console.log(burger);
+modalBackdrop.addEventListener("click", () => {
+  modalBackdrop.classList.remove("darken");
+});
