@@ -1,0 +1,10 @@
+@use '../abstracts';
+
+footer {
+  height: 10vh;
+  background-color: abstracts.$dark;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

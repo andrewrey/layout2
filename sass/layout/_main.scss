@@ -495,7 +495,7 @@
 .bottom__banner__scroll {
   @include abstracts.mq(900px) {
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: -250px;
   }
   margin-top: 2rem;
@@ -518,4 +518,5 @@
   background-image: url("../images/lower_background.jpg");
   background-position: 0 30%;
   background-size: cover;
+  margin-top: -8rem;
 }

@@ -728,7 +728,7 @@ html::-webkit-scrollbar {
 @media (min-width: 900px) {
   .bottom__banner__scroll {
     position: absolute;
-    top: 50%;
+    top: 20%;
     right: -250px;
   }
 }
@@ -748,6 +748,16 @@ html::-webkit-scrollbar {
   background-image: url("../images/lower_background.jpg");
   background-position: 0 30%;
   background-size: cover;
+  margin-top: -8rem;
+}
+
+footer {
+  height: 10vh;
+  background-color: #292a35;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
