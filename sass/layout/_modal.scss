@@ -1,0 +1,11 @@
+.modal_backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(black, 0);
+  transition: background-color 4000ms linear;
+}
+
+.dark {
+  background-color: rgba(black, 0.8);
+}
