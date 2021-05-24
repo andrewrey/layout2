@@ -94,6 +94,9 @@ html::-webkit-scrollbar {
   justify-content: space-between;
   align-items: center;
 }
+.header__wrap i:hover {
+  border-bottom: 2px solid #3eafc0;
+}
 
 .header__logo_wrap {
   width: 100px;

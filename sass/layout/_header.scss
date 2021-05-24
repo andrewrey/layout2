@@ -6,6 +6,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  i:hover {
+    border-bottom: 2px solid abstracts.$lblue;
+  }
 }
 
 .header__logo_wrap {
