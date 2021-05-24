@@ -745,7 +745,9 @@ html::-webkit-scrollbar {
 
 .bottom__banner__background {
   height: 30vh;
-  background-color: pink;
+  background-image: url("../images/lower_background.jpg");
+  background-position: 0 30%;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
