@@ -2,11 +2,26 @@
 .modal {
   width: 50%;
   max-width: 260px;
+  color: white;
+  ul {
+    list-style-type: none;
+    font-size: 1.8rem;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    li + li {
+      margin-top: 1rem;
+    }
+    a:hover {
+      color: rgb(134, 134, 134);
+    }
+  }
   @include abstracts.mq(900px) {
     width: 20%;
   }
   height: 100vh;
-  background-color: black;
+  background-color: rgba(black, 0.9);
   position: fixed;
   z-index: 100;
 }
