@@ -160,7 +160,8 @@ html::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   background: #292a35;
-  height: 88vh;
+  min-height: 88vh;
+  padding: 4rem 0;
 }
 .header__banner .banner__card {
   position: relative;
