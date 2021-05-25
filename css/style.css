@@ -87,6 +87,20 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+.modal {
+  width: 50%;
+  max-width: 260px;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  z-index: 100;
+}
+@media (min-width: 900px) {
+  .modal {
+    width: 20%;
+  }
+}
+
 .modal_backdrop {
   position: fixed;
   height: 100vh;
